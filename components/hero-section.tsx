@@ -36,7 +36,7 @@ export function HeroSection({ setIsAgeModalOpen, setIsAdvertiserModalOpen }: Her
         {/* Dark overlay for readability */}
         <div className="absolute inset-0 bg-black/65" />
       </div>
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-6 py-10 md:py-16">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-2 md:px-4 py-8 md:py-12">
         {/* Top bar */}
         <div className="flex items-center justify-between mb-5">
           <div className="flex items-center gap-2">
