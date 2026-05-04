@@ -103,7 +103,7 @@ export default function PrivacyPolicyPage() {
             <div className="p-6 bg-black text-white">
               <p className="text-xs font-bold uppercase tracking-wider text-primary mb-2">Ultima Atualizacao</p>
               <p className="text-sm text-white/70">
-                Esta politica foi revista e atualizada em 2025. Consulte esta pagina regularmente para se manter
+                Esta politica foi revista e atualizada em 2026. Consulte esta pagina regularmente para se manter
                 informado sobre eventuais alteracoes.
               </p>
             </div>
