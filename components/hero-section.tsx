@@ -62,13 +62,13 @@ export function HeroSection({ setIsAgeModalOpen, setIsAdvertiserModalOpen }: Her
 
         {/* Title */}
         <div className="text-center mb-6">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight text-balance text-white">
+          <h1 className="text-xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight text-balance text-white">
             Os Melhores{" "}
             <span className="text-gradient-gold">Sites de Apostas</span>
             <br />
             em Portugal {currentYear}
           </h1>
-          <p className="mt-3 text-sm md:text-base text-white/80 max-w-2xl mx-auto leading-relaxed">
+          <p className="hidden md:block mt-3 text-sm md:text-base text-white/80 max-w-2xl mx-auto leading-relaxed">
             Comparamos e classificamos os melhores operadores de apostas desportivas licenciados pelo SRIJ.
             Rankings independentes, bonus verificados e analises aprofundadas para apostadores exigentes.
           </p>
