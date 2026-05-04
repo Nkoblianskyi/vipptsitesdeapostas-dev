@@ -40,7 +40,7 @@ export function HeroSection({ setIsAgeModalOpen, setIsAdvertiserModalOpen }: Her
         {/* Top bar */}
         <div className="flex items-center justify-between mb-5">
           <div className="flex items-center gap-2">
-            <div className="hidden sm:flex items-center gap-1.5 px-3 py-1 bg-white/10 border border-white/25">
+            <div className="items-center gap-1.5 px-3 py-1 bg-white/10 border border-white/25">
               <span className="text-[11px] md:text-xs text-white font-semibold">Atualizado {lastUpdated}</span>
             </div>
           </div>
@@ -73,10 +73,6 @@ export function HeroSection({ setIsAgeModalOpen, setIsAdvertiserModalOpen }: Her
           <div className="flex items-center gap-2 px-4 py-2 bg-white/10 border border-white/25">
             <Image src="/flag.png" alt="Portugal" width={18} height={18} />
             <span className="text-xs font-bold text-white">Mercado Portugues</span>
-          </div>
-          <div className="flex items-center gap-2 px-4 py-2 bg-white/10 border border-white/25">
-            <TrendingUp className="w-3.5 h-3.5 text-yellow-600" />
-            <span className="text-xs font-bold text-white">Rankings Atualizados</span>
           </div>
         </div>
       </div>
