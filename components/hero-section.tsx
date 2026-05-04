@@ -44,20 +44,6 @@ export function HeroSection({ setIsAgeModalOpen, setIsAdvertiserModalOpen }: Her
               <span className="text-[11px] md:text-xs text-white font-semibold">Atualizado {lastUpdated}</span>
             </div>
           </div>
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => setIsAgeModalOpen(true)}
-              className="px-3 py-1 text-[11px] font-bold text-black bg-white border border-white hover:bg-white/80 transition-colors"
-            >
-              +18
-            </button>
-            <button
-              onClick={() => setIsAdvertiserModalOpen(true)}
-              className="px-3 py-1 text-[11px] text-white/80 border border-white/30 hover:bg-white/10 transition-colors"
-            >
-              Publicidade
-            </button>
-          </div>
         </div>
 
         {/* Title */}
